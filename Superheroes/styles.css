@@ -1,0 +1,128 @@
+ body {
+    background-color: rgb(228, 228, 228);
+    margin: 0px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure footer stays at the bottom of the page */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#result h1 {
+    color: crimson;
+    font-size: 24px;
+}
+
+#result h2 {
+    font-size: 18px;
+    margin-top: -10px; /* Reduced margin-top */
+}
+
+#result h3 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+#result h4 {
+    font-size: 18px;
+    margin-bottom: 10px; /* Reduced margin-bottom */
+    color: crimson;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://preview.redd.it/mcu-shows-made-by-marvel-studios-in-twitter-header-size-v0-z1yvomt83qx91.jpg?width=2400&format=pjpg&auto=webp&s=c6ec786ca22f26cad09247c503ada2cf0e6a2c36);
+    background-size: cover; /* Ensure the image covers the entire header */
+    color: #e8e8e8;
+    text-align: center;
+    padding: 65px;
+    border: 1px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+h4 {
+    font-size: 25px;
+    padding-right: 130px;
+}
+
+h2 {
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sep {
+    float: center;
+}
+
+.searchsection {
+    margin: 10px 200px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 1%;
+}
+
+.resultcontent {
+    padding-left: 130px;
+}
+
+form {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.btn1 {
+    height: 55px;
+    width: 100px;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.inputfield[type="text"] {
+    padding: 20px 10px;
+    line-height: 15px;
+    width: 800px;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.search .hintText {
+    margin-left: 20px; /* Adjust this value to move it to the left */
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 20px; /* Adjust padding */
+    background: #4A5568;
+    color: white;
+    text-align: center; /* Center the text */
+    margin-top: auto; /* Push footer to the bottom */
+    padding: 15px;
+}
+

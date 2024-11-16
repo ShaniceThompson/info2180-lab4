@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVENGERS CHARACTER SEARCH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AVENGERS CHARACTER SEARCH</h1>
+    </header>
+    <main>
+      <div class="search"> 
+        <p class="hintText">Search by Full Name or Alias</p>
+        <form action="superheroes.php" method="post">
+            <input type="text" id="superHeroName" name="superName" placeholder="e.g. Captain America or Steve Rogers" required>
+            <button type="button" class="btn">Search</button>
+        </form>
+        <h2 class="resultHeading">RESULT</h2>
+        <hr>
+        <div id="result">
+            <h3 class="alias"></h3>
+            <h2 class="name"></h2>
+            <p class="biography"></p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright 2024, Shanice Thompson</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+ 
